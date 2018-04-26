@@ -14,17 +14,5 @@ function johnLennonFacts(array) {
     facts.push(array[i] + `!!!`)
     i++
   }
-  
+  return facts
 }
-
-
-
-+function johnLennonFacts(array){
-+  let i = 0;
-+  let newArray = [];
-+  while (i < array.length) {
-+   newArray.push(array[i] + "!!!")
-+   i++
-+  }
-+  return newArray
-+}
