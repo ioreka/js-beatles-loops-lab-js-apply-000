@@ -1,20 +1,8 @@
 function theBeatlesPlay(musicians, instruments) {
   var returnArr = [];
   for(let i = 0; i < musicians.length; i++) {
-    
+    returnArr.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-
-for (letBeatlesIndex = 0; BeatlesIndex < musicians.length; BeatlesIndex++) {
-  console.log(`${musicians} plays ${instruments}`)
+console.log(returnArr)
+return returnArr
 }
-}
-
-
-function theBeatlesPlay(musicians, instruments) {
-+  var returnArr  = [];
-+  for(let i = 0; i < musicians.length; i++){
-+    returnArr.push(musicians[i] + " plays " + instruments[i])
-+  }
-+  console.log(returnArr)
-+  return returnArr
-+}
