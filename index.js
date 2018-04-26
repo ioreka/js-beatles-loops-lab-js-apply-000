@@ -7,8 +7,24 @@ console.log(returnArr)
 return returnArr
 }
 
-function johnLennonFacts(facts) {
+function johnLennonFacts(array) {
   var facts = [];
-  while()
+  let i = 0;
+  while(i < array.length) {
+    facts.push(array[i] + `!!!`)
+    i++
+  }
   
 }
+
+
+
++function johnLennonFacts(array){
++  let i = 0;
++  let newArray = [];
++  while (i < array.length) {
++   newArray.push(array[i] + "!!!")
++   i++
++  }
++  return newArray
++}
