@@ -2,12 +2,7 @@ function theBeatlesPlay(musicians, instruments) {
   const musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr'];
   const instruments = ['Guitar', 'Bass Guitar', 'Lead Guitar', 'Drums'];
 
-for (letBeatlesIndex = 0; BeatlesIndex < )
+for (letBeatlesIndex = 0; BeatlesIndex < musicians.length; BeatlesIndex++) {
+  console.log(`${musicians} plays ${instruments}`)
 }
-
-
-let animals = ["Grizzly Bear", "Sloth", "Sea Lion"];
-
-for (let animalIndex = 0; animalIndex < animals.length; animalIndex++) {
-  console.log(animals[animalIndex]);
 }
