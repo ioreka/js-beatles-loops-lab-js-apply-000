@@ -9,6 +9,6 @@ return returnArr
 
 function johnLennonFacts(facts) {
   var facts = [];
-  while
+  while()
   
 }
